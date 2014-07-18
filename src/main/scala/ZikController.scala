@@ -1,15 +1,15 @@
-package io.yard.zik
+package io.yard.module.zik
 
 import play.api._
 import play.api.mvc._
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
 
-import io.yard.core.Api
-import io.yard.core.models._
+import io.yard.module.core.Api
+import io.yard.models._
 
 object ZikController
-    extends io.yard.core.controllers.ModuleController
+    extends io.yard.models.ModuleController
     with ZikConfig {
 
   lazy val logger = initLogger("yardio.modules.zik.controller")

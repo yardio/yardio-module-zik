@@ -1,4 +1,4 @@
-package io.yard.zik
+package io.yard.module.zik
 
 import scala.concurrent.Future
 import play.api.libs.concurrent.Execution.Implicits._

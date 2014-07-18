@@ -1,6 +1,6 @@
-package io.yard.zik
+package io.yard.module.zik
 
-trait ZikConfig extends io.yard.core.utils.Config {
+trait ZikConfig extends io.yard.utils.Config {
   isModule("zik")
 
   object zik {

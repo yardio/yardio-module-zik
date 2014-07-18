@@ -1,8 +1,8 @@
-package io.yard.zik
+package io.yard.module.zik
 
 import akka.actor.Props
 
-import io.yard.core.Api
+import io.yard.module.core.Api
 
 class ZikPlugin(application: play.api.Application) extends play.api.Plugin {
   override def onStart = {

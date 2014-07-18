@@ -1,13 +1,13 @@
-package io.yard.zik
+package io.yard.module.zik
 
 import scala.concurrent.Future
 import play.api.libs.concurrent.Execution.Implicits._
 
 import akka.actor.Actor
 
-import io.yard.core.models.{ Command, OutgoingWebHook, IncomingWebHook }
+import io.yard.models.{ Command, OutgoingWebHook, IncomingWebHook }
 
-class Zaktor extends Actor with ZikConfig with io.yard.core.utils.Log {
+class Zaktor extends Actor with ZikConfig with io.yard.utils.Log {
 
   lazy val logger = initLogger("yardio.modules.zik.zaktor")
 
