@@ -5,8 +5,8 @@ import org.joda.time.Duration
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
 
-import io.yard.models.User
-import io.yard.utils.Implicits._
+import io.yard.common.models.User
+import io.yard.common.utils.Implicits._
 
 case class Provider(name: String)
 
